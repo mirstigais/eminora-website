@@ -1,24 +1,34 @@
 baseURL: 'http://example.org/'
 languageCode: en-us
-title: My New suzy Site
+title: My site for learning hugo and github actions
 theme: "PaperMod"
-socialIcons:
-  - name: "kofi"
-    url: "https://kofi.com"
-  - name: "twitter"
-    url: "https://twitter.com"
-menu:
-    main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+# menu:
+#     main:
+#         - identifier: categories
+#           name: categories
+#           url: /categories/
+#           weight: 10
+#         - identifier: tags
+#           name: tags
+#           url: /tags/
+#           weight: 20
+#         - identifier: example
+#           name: example.org
+#           url: https://example.org
+#           weight: 30
+params:
+    profileMode:
+        enabled: true
+        title: "Mirstigais" # optional default will be site title
+        subtitle: "Blowing galaxy sized clouds with my vape."
+        imageUrl: "https://avatars.githubusercontent.com/u/50892520?s=96&v=4" # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: Magic
+            url: "https://www.youtube.com/watch?v=dlRsmijwHMk"
 
+    socialIcons:
+      - name: "github"
+        url: "https://github.com/mirstigais"
