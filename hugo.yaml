@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
 languageCode: en-us
-title: My site for learning hugo and github actions
+title: Eminora Art
 theme: "PaperMod"
 # menu:
 #     main:
@@ -17,18 +17,19 @@ theme: "PaperMod"
 #           url: https://example.org
 #           weight: 30
 params:
+    disableThemeToggle: true
     profileMode:
         enabled: true
-        title: "Mirstigais" # optional default will be site title
-        subtitle: "Blowing galaxy sized clouds with my vape."
-        imageUrl: "https://avatars.githubusercontent.com/u/50892520?s=96&v=4" # optional
-        imageTitle: "<title of image as alt>" # optional
+        title: "Eminora" # optional default will be site title
+        subtitle: "Placeholder website so noone yoinks domain ^^"
+        imageUrl: "/images/profilePic.jpg" # optional
+        # imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         buttons:
-          - name: Magic
-            url: "https://www.youtube.com/watch?v=dlRsmijwHMk"
+          - name: Threshold of no return 
+            url: "https://www.webtoons.com/en/canvas/threshold-of-no-return/list?title_no=919153"
 
     socialIcons:
-      - name: "github"
-        url: "https://github.com/mirstigais"
+      - name: "instagram"
+        url: "https://www.instagram.com/eminora.art/"
